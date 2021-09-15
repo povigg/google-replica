@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+nav a{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    padding: 5px;
+    width: 35px;
+    margin: auto 8px
+}
+
+nav img:hover{
+    background-color: black;
+}
+
+nav button{
+    background-color: #3867FF;
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+    margin-top: 150px;
+}
